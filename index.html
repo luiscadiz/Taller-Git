@@ -16,8 +16,14 @@
     </header>
 
     <footer class="containe-fluid bg-dark text-white text-center">
-        <p><strong>GNUD 2022</strong></p>
+        <strong><p id="footer"> </p></strong>
     </footer>
+
+    <script>
+        window.onload = function(){
+            document.getElementById("footer").innerText = "GNUno " + new Date().getFullYear().toString();
+        }
+    </script>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
